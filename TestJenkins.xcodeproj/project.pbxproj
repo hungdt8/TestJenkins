@@ -147,7 +147,7 @@
 					04DD55801ED1395F0033C881 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = TFT9EU4Z78;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					04DD55941ED1395F0033C881 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -347,6 +347,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hungle.TestJenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a47810b4-e39e-457e-9107-9b23f5bcf2fc";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard_LeDucHung;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -361,6 +363,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hungle.TestJenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a47810b4-e39e-457e-9107-9b23f5bcf2fc";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard_LeDucHung;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -414,6 +418,7 @@
 				04DD55A01ED1395F0033C881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DD55A11ED1395F0033C881 /* Build configuration list for PBXNativeTarget "TestJenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				04DD55A31ED1395F0033C881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
